@@ -58,8 +58,8 @@
 			children = (
 				3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */,
 				3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */,
-				3BC2B1D82682447C00CF64F2 /* Main.storyboard */,
 				3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */,
+				3BC2B1D82682447C00CF64F2 /* Main.storyboard */,
 				3BC2B1DB2682447D00CF64F2 /* Assets.xcassets */,
 				3BC2B1DD2682447D00CF64F2 /* LaunchScreen.storyboard */,
 				3BC2B1E02682447D00CF64F2 /* Info.plist */,

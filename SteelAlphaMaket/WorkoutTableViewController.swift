@@ -15,71 +15,75 @@ class WorkoutTableViewController: UITableViewController {
     
     }
 
-    // MARK: - Table view data source
+    // MARK: - alert dialog action
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
-//
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of rows
-//        return 0
-//    }
-
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
+    @IBAction func warmupAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Разминка", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    
+    @IBAction func acquaintanceAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Знакомство с гирей", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
+        
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    @IBAction func cardioAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Кардио тренировка", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
+        
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+    
+    @IBAction func bodiAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Все тело", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
     }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
+    
+    
+    @IBAction func pressAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Железный пресс", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
     }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    @IBAction func handsAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Стальные руки", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
     }
-    */
-
+    
+    @IBAction func professionalAlertAction(_ sender: UIButton) {
+        
+        let alertControler = UIAlertController(title: "Продвинутая", message: "Туть будет карткое описание", preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Хорошо", style: .default)
+        alertControler.addAction(alertAction)
+        present(alertControler, animated: true)
+        
+    }
+    
+    
 }
