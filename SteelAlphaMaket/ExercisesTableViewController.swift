@@ -16,7 +16,7 @@ class ExercisesTableViewController: UITableViewController {
         super.viewDidLoad()
         
         
-        //tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+
     
     }
     // MARK: - Table view data source
@@ -27,10 +27,13 @@ class ExercisesTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ExercisesTableViewCell
         
-        cell.imageView?.image = UIImage(named: exercisesNameArray.Array[indexPath.row])
-        cell.textLabel?.text = exercisesNameArray.Array[indexPath.row]
+        cell.nameImage.image = UIImage(named: exercisesNameArray.Array[indexPath.row])
+        cell.nameImage.layer.cornerRadius = cell.frame.size.height / 2
+        cell.clipsToBounds = true
+        cell.nameLabel.text = exercisesNameArray.Array[indexPath.row]
+    
         
         
         return cell
