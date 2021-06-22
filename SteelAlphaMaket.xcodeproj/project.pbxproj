@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B438C0426827F210059EF3D /* ExercisesNameArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B438C0326827F210059EF3D /* ExercisesNameArray.swift */; };
+		3B438C0A268288570059EF3D /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B438C09268288570059EF3D /* ExercisesTableViewController.swift */; };
 		3BC2B1D32682447C00CF64F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */; };
 		3BC2B1D52682447C00CF64F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */; };
 		3BC2B1DA2682447C00CF64F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D82682447C00CF64F2 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B438C0326827F210059EF3D /* ExercisesNameArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesNameArray.swift; sourceTree = "<group>"; };
+		3B438C09268288570059EF3D /* ExercisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewController.swift; sourceTree = "<group>"; };
 		3BC2B1CF2682447C00CF64F2 /* SteelAlphaMaket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteelAlphaMaket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */,
 				3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */,
 				3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */,
+				3B438C0326827F210059EF3D /* ExercisesNameArray.swift */,
 				3BC2B1D82682447C00CF64F2 /* Main.storyboard */,
+				3B438C09268288570059EF3D /* ExercisesTableViewController.swift */,
 				3BC2B1DB2682447D00CF64F2 /* Assets.xcassets */,
 				3BC2B1DD2682447D00CF64F2 /* LaunchScreen.storyboard */,
 				3BC2B1E02682447D00CF64F2 /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B438C0426827F210059EF3D /* ExercisesNameArray.swift in Sources */,
 				3BC2B1D32682447C00CF64F2 /* AppDelegate.swift in Sources */,
 				3BC2B1D52682447C00CF64F2 /* SceneDelegate.swift in Sources */,
 				3BC2B1E7268245FB00CF64F2 /* WorkoutTableViewController.swift in Sources */,
+				3B438C0A268288570059EF3D /* ExercisesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
