@@ -15,9 +15,7 @@ class WorkoutTableViewController: UITableViewController {
     
     }
     
-    override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
-        
-    }
+   
 
     // MARK: - alert dialog action
 
@@ -86,6 +84,10 @@ class WorkoutTableViewController: UITableViewController {
         let alertAction = UIAlertAction(title: "Хорошо", style: .default)
         alertControler.addAction(alertAction)
         present(alertControler, animated: true)
+        
+    }
+    
+    @IBAction func unwindSegue(_ segue: UIStoryboardSegue) {
         
     }
     
