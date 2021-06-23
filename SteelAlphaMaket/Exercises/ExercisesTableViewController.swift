@@ -30,7 +30,7 @@ class ExercisesTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ExercisesTableViewCell
         
         cell.nameImage.image = UIImage(named: exercisesNameArray.Array[indexPath.row])
-        cell.nameImage.layer.cornerRadius = cell.frame.size.height / 2
+        cell.nameImage.layer.cornerRadius = cell.nameImage.frame.size.height / 2
         cell.clipsToBounds = true
         cell.nameLabel.text = exercisesNameArray.Array[indexPath.row]
     

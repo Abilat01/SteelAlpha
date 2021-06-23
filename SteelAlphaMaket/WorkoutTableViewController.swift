@@ -14,6 +14,10 @@ class WorkoutTableViewController: UITableViewController {
 
     
     }
+    
+    override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {
+        
+    }
 
     // MARK: - alert dialog action
 
