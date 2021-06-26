@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Вращение гири вокруг пояса@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Вращение гири вокруг пояса@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Вращение гири вокруг пояса@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
