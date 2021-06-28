@@ -17,6 +17,9 @@
 		3BC2B1DC2682447D00CF64F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2B1DB2682447D00CF64F2 /* Assets.xcassets */; };
 		3BC2B1DF2682447D00CF64F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2B1DD2682447D00CF64F2 /* LaunchScreen.storyboard */; };
 		3BC2B1E7268245FB00CF64F2 /* WorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */; };
+		3BD174F62688A2C80053E8C8 /* Acquaintance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD174F52688A2C80053E8C8 /* Acquaintance.storyboard */; };
+		3BD174F82688C4CD0053E8C8 /* warmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD174F72688C4CD0053E8C8 /* warmTableViewController.swift */; };
+		3BD174FA2688C7620053E8C8 /* Body.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD174F92688C7620053E8C8 /* Body.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		3BC2B1DE2682447D00CF64F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC2B1E02682447D00CF64F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewController.swift; sourceTree = "<group>"; };
+		3BD174F52688A2C80053E8C8 /* Acquaintance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Acquaintance.storyboard; sourceTree = "<group>"; };
+		3BD174F72688C4CD0053E8C8 /* warmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmTableViewController.swift; sourceTree = "<group>"; };
+		3BD174F92688C7620053E8C8 /* Body.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Body.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +92,24 @@
 				3B4C1D37268368E2001346E6 /* Delegate */,
 				3B4C1D38268368FE001346E6 /* Exercises */,
 				3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */,
-				3BC2B1D82682447C00CF64F2 /* Main.storyboard */,
+				3BD174F72688C4CD0053E8C8 /* warmTableViewController.swift */,
 				3B4C1D392683696B001346E6 /* BasicTableViewController.swift */,
+				3BD174F42688A2650053E8C8 /* Storyboard */,
 				3BC2B1DB2682447D00CF64F2 /* Assets.xcassets */,
 				3BC2B1DD2682447D00CF64F2 /* LaunchScreen.storyboard */,
 				3BC2B1E02682447D00CF64F2 /* Info.plist */,
 			);
 			path = SteelAlphaMaket;
+			sourceTree = "<group>";
+		};
+		3BD174F42688A2650053E8C8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3BC2B1D82682447C00CF64F2 /* Main.storyboard */,
+				3BD174F52688A2C80053E8C8 /* Acquaintance.storyboard */,
+				3BD174F92688C7620053E8C8 /* Body.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD174FA2688C7620053E8C8 /* Body.storyboard in Resources */,
 				3BC2B1DF2682447D00CF64F2 /* LaunchScreen.storyboard in Resources */,
 				3BC2B1DC2682447D00CF64F2 /* Assets.xcassets in Resources */,
 				3BC2B1DA2682447C00CF64F2 /* Main.storyboard in Resources */,
+				3BD174F62688A2C80053E8C8 /* Acquaintance.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +190,7 @@
 				3BC2B1D52682447C00CF64F2 /* SceneDelegate.swift in Sources */,
 				3BC2B1E7268245FB00CF64F2 /* WorkoutTableViewController.swift in Sources */,
 				3B438C0A268288570059EF3D /* ExercisesTableViewController.swift in Sources */,
+				3BD174F82688C4CD0053E8C8 /* warmTableViewController.swift in Sources */,
 				3B438C102682937B0059EF3D /* ExercisesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
