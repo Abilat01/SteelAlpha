@@ -43,9 +43,9 @@ class ExercisesTableViewController: UITableViewController {
     
     // MARK: - Navigation
     
-//    @IBAction func unwindSegue(_ segue: UIStoryboardSegue)  {
-//
-//    }
+    @IBAction func unwindSegue(_ segue: UIStoryboardSegue)  {
+
+    }
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if segue.identifier == "ShowDetail" {

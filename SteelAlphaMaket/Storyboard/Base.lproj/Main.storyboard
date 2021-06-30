@@ -288,6 +288,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="oMn-fD-A40" secondAttribute="bottom" constant="5" id="W42-RR-fqc"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EVp-I4-MYc" kind="presentation" modalPresentationStyle="fullScreen" id="fdS-6j-hCc"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="200" id="S6E-Ji-ia3">
                                         <rect key="frame" x="0.0" y="624.5" width="414" height="200"/>
@@ -1112,7 +1115,15 @@
                 <viewControllerPlaceholder storyboardName="Acquaintance" id="IEG-yY-cbo" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z1k-iY-T7a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1841" y="807"/>
+            <point key="canvasLocation" x="1" y="1324"/>
+        </scene>
+        <!--Body-->
+        <scene sceneID="srh-Yu-WS0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Body" id="EVp-I4-MYc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UT6-lb-wdA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="1324"/>
         </scene>
         <!--Упражнения-->
         <scene sceneID="JsO-jS-3oP">
