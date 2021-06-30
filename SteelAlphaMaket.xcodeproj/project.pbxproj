@@ -11,6 +11,7 @@
 		3B438C0A268288570059EF3D /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B438C09268288570059EF3D /* ExercisesTableViewController.swift */; };
 		3B438C102682937B0059EF3D /* ExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B438C0F2682937B0059EF3D /* ExercisesTableViewCell.swift */; };
 		3B4C1D3A2683696B001346E6 /* BasicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4C1D392683696B001346E6 /* BasicTableViewController.swift */; };
+		3B8649AF268CFBD000C148BD /* bodyMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8649AE268CFBD000C148BD /* bodyMainTableView.swift */; };
 		3BC2B1D32682447C00CF64F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */; };
 		3BC2B1D52682447C00CF64F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */; };
 		3BC2B1DA2682447C00CF64F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC2B1D82682447C00CF64F2 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		3B438C09268288570059EF3D /* ExercisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewController.swift; sourceTree = "<group>"; };
 		3B438C0F2682937B0059EF3D /* ExercisesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewCell.swift; sourceTree = "<group>"; };
 		3B4C1D392683696B001346E6 /* BasicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewController.swift; sourceTree = "<group>"; };
+		3B8649AE268CFBD000C148BD /* bodyMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyMainTableView.swift; sourceTree = "<group>"; };
 		3BC2B1CF2682447C00CF64F2 /* SteelAlphaMaket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteelAlphaMaket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC2B1D22682447C00CF64F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC2B1D42682447C00CF64F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			path = Exercises;
 			sourceTree = "<group>";
 		};
+		3B8649AD268CFB6D00C148BD /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				3B8649AE268CFBD000C148BD /* bodyMainTableView.swift */,
+			);
+			path = Body;
+			sourceTree = "<group>";
+		};
 		3BC2B1C62682447C00CF64F2 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 			children = (
 				3B4C1D37268368E2001346E6 /* Delegate */,
 				3B4C1D38268368FE001346E6 /* Exercises */,
+				3B8649AD268CFB6D00C148BD /* Body */,
 				3BC2B1E6268245FB00CF64F2 /* WorkoutTableViewController.swift */,
 				3BD174F72688C4CD0053E8C8 /* warmTableViewController.swift */,
 				3B4C1D392683696B001346E6 /* BasicTableViewController.swift */,
@@ -192,6 +203,7 @@
 				3B438C0A268288570059EF3D /* ExercisesTableViewController.swift in Sources */,
 				3BD174F82688C4CD0053E8C8 /* warmTableViewController.swift in Sources */,
 				3B438C102682937B0059EF3D /* ExercisesTableViewCell.swift in Sources */,
+				3B8649AF268CFBD000C148BD /* bodyMainTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
