@@ -67,7 +67,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="E0U-L7-H7w" kind="presentation" modalPresentationStyle="fullScreen" id="0XW-IP-Lfh"/>
+                                            <segue destination="5mt-ar-Yf0" kind="show" id="Ant-7I-joD"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="25" id="IfI-ET-TkY">
@@ -118,7 +118,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="nqJ-qt-Qgb" kind="presentation" modalPresentationStyle="fullScreen" id="hrH-ng-mX1"/>
+                                            <segue destination="biX-GW-RWa" kind="show" id="u9G-uv-TWN"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="25" id="5gy-He-0ft">
@@ -169,7 +169,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="mK6-kd-LHR" kind="presentation" modalPresentationStyle="fullScreen" id="4Mw-Md-25X"/>
+                                            <segue destination="Enm-Pf-vc3" kind="show" id="JiD-fj-sxH"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="25" id="3N3-b4-czj">
@@ -220,7 +220,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="KYp-OQ-9S2" kind="presentation" modalPresentationStyle="fullScreen" id="Txg-Om-pFL"/>
+                                            <segue destination="k0v-2y-1ZQ" kind="show" id="NrK-BX-oIM"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -247,94 +247,6 @@
                 <exit id="yuL-21-Zle" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="580" y="201"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="N1q-kF-KKy">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E0U-L7-H7w" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hzk-yj-SvA">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.11372549830000001" green="0.1176470518" blue="0.1215686351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="5mt-ar-Yf0" kind="relationship" relationship="rootViewController" id="Tla-gR-vw8"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t3L-0G-Mez" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1847.826086956522" y="-753.34821428571422"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="UEL-ON-ntZ">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nqJ-qt-Qgb" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WUj-MH-934">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.11372549830000001" green="0.1176470518" blue="0.1215686351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="biX-GW-RWa" kind="relationship" relationship="rootViewController" id="hpv-V2-wp3"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4S1-Hy-UOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1847.826086956522" y="-66.294642857142861"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="V8F-Na-frt">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mK6-kd-LHR" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5T-vf-XhE">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.11372549830000001" green="0.1176470518" blue="0.1215686351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Enm-Pf-vc3" kind="relationship" relationship="rootViewController" id="AtM-kQ-TpT"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V0k-1O-XsU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1847.826086956522" y="604.6875"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="boe-5F-eaK">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KYp-OQ-9S2" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ajk-Me-2Bb">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.11372549830000001" green="0.1176470518" blue="0.1215686351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="k0v-2y-1ZQ" kind="relationship" relationship="rootViewController" id="BYe-UZ-003"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="clm-Y0-Qkq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1847.826086956522" y="1272.9910714285713"/>
         </scene>
         <!--Первая неделя-->
         <scene sceneID="w38-8D-lOw">
@@ -904,7 +816,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGC-Ud-Ft1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="4X1-Gf-4nv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2766.666666666667" y="-753.34821428571422"/>
+            <point key="canvasLocation" x="1370" y="-692"/>
         </scene>
         <!--Вторая неделя-->
         <scene sceneID="kOK-qe-olh">
@@ -1474,7 +1386,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qbw-tH-pyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Dfc-hm-rsu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2767" y="-66"/>
+            <point key="canvasLocation" x="2013" y="-21"/>
         </scene>
         <!--Четвертая неделя-->
         <scene sceneID="iSF-vy-Eum">
@@ -2044,7 +1956,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOB-SG-cJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="w60-7E-tdN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2767" y="1273"/>
+            <point key="canvasLocation" x="580" y="1052"/>
         </scene>
         <!--Третея неделя-->
         <scene sceneID="JZT-XA-BLS">
@@ -2614,7 +2526,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IyI-8N-kGt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="rVi-1Z-uYl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2767" y="605"/>
+            <point key="canvasLocation" x="1667" y="724"/>
         </scene>
     </scenes>
     <resources>
